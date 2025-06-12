@@ -1,4 +1,4 @@
-# ShoppyGlobe Econmerce Backend
+# ShoppyGlobe Ecommerce Backend
 
 A robust Node.js/Express backend for the ShoppyGlobe e-commerce application with MongoDB integration, JWT authentication, and comprehensive cart management.
 
