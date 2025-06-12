@@ -1,4 +1,4 @@
-# ShoppyGlobe  Ecommerce Backend 
+# ShoppyGlobe Econmerce Backend
 
 A robust Node.js/Express backend for the ShoppyGlobe e-commerce application with MongoDB integration, JWT authentication, and comprehensive cart management.
 
@@ -64,20 +64,13 @@ A robust Node.js/Express backend for the ShoppyGlobe e-commerce application with
 3. **Environment Setup**
    Create a `.env` file in the root directory with the following variables:
    ```
-  # Server Configuration
-NODE_ENV=development
-PORT=5000
-
-# MongoDB Connection
-MONGO_URI=mongodb://localhost:27017/shoppyglobe
-
-# JWT Configuration
-JWT_SECRET=a83d9c58b7e9f3c1d5e0b4a7c6f9e2d5b8a7c4f1e0d3b6a9c2e5f8d7a4b1c6e9
-JWT_EXPIRE=30d
-JWT_COOKIE_EXPIRE=30
-
-# Frontend URL for CORS
-FRONTEND_URL=http://localhost:3000
+   NODE_ENV=development
+   PORT=5000
+   MONGO_URI=mongodb://localhost:27017/shoppyglobe
+   JWT_SECRET=your_jwt_secret_key_here
+   JWT_EXPIRE=30d
+   JWT_COOKIE_EXPIRE=30
+   FRONTEND_URL=http://localhost:3000
    ```
 
 4. **Seed the database**
